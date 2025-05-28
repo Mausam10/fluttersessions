@@ -1,4 +1,4 @@
-import 'package:demoapp/custom_button.dart';
+import 'package:demoapp/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
 void main() {
