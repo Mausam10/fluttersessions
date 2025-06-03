@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:navwithgetx/views/home_page.dart';
+// import 'package:navwithgetx/views/home_page.dart';
+// import 'package:navwithgetx/views/login_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //use getmaterialapp instead of material app in getx
+    // return GetMaterialApp(home: LoginPage());
     return GetMaterialApp(home: HomePage());
   }
 }
@@ -50,4 +53,4 @@ class MyApp extends StatelessWidget {
 //       child: Text(title.toUpperCase(), style: TextStyle(fontSize: 16)),
 //     );
 //   }
-// }
+//
